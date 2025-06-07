@@ -1,12 +1,30 @@
-# React + Vite
+# 🎬 Movie Explorer App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React.js web application for exploring movies using the TMDB API.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📄 Movie listing page with posters, titles, genres, and ratings
+- 🔍 Search movies by title
+- 📂 Filter by genres
+- 🌓 Dark mode toggle
+- ❤️ Add to Favorites (saved in local storage)
+- 👤 Actor profile page (view actor bio & movies)
+- 🌐 Language selector (fetch movies in different languages)
+- 📱 Responsive design for desktop and mobile
+- 📊 Pagination support
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js + Vite
+- TMDB API
+- React Router DOM
+- Local Storage
+- CSS
+
+## 📦 Setup Instructions
+
+### 1. Clone the repo:
+```bash
+git clone https://github.com/GAURIKHULE6/movie-explorer.git
+cd movie-explorer
