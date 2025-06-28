@@ -1,3 +1,5 @@
+import React from "react";
+
 const SearchBar = ({ searchTerm, setSearchTerm }) => {
   return (
     <input
@@ -5,7 +7,11 @@ const SearchBar = ({ searchTerm, setSearchTerm }) => {
       placeholder="Search movies..."
       value={searchTerm}
       onChange={(e) => setSearchTerm(e.target.value)}
-      style={{ padding: 8, width: '100%', marginTop: 10 }}
+      style={{
+        padding: 8,
+        width: "100%",
+        marginTop: 10,
+      }}
     />
   );
 };
